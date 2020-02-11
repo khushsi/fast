@@ -23,7 +23,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 //import java.util.HashSet;
 //import java.util.List;
-//import fast.common.Observation;
+//import be.ac.ulg.montefiore.run.jahmm.Observation;
 import fast.data.DataPoint;
 
 

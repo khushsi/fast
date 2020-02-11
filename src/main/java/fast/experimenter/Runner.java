@@ -129,8 +129,8 @@ public class Runner implements Runnable {
 		ArrayList<ArrayList<String>> oriTrainAllKcArrayList = splitHMMs(opts.trainFile, oriTrainKcs);//per kc, then per instance
 		Bijection oriTestKcs = new Bijection();
 		ArrayList<ArrayList<String>> oriTestAllKcArrayList = splitHMMs(opts.testFile, oriTestKcs);
-		if (oriTestAllKcArrayList.size() > oriTrainAllKcArrayList.size() || oriTestKcs.getSize() > oriTrainKcs.getSize())
-			throw new RuntimeException("ERROR: The # of hmms(KCs) in testset is bigger than that in trainset! Please remove new KCs on testset! ");
+		if (oriTestAllKcArrayList.size() > oriTrainAllKcArrayList.size() || oriTestKcs.getSize() > oriTestKcs.getSize())
+			throw new RuntimeException("ERROR: The # of hmms(KCs) in testset is bigger than that in trainset! Please remove new KCs on testset!");
 		Bijection trainKcs = new Bijection();
 		Bijection testKcs = new Bijection(); 
 		ArrayList<ArrayList<String>> trainAllKcArrayList = new ArrayList<ArrayList<String>>();
@@ -223,8 +223,12 @@ public class Runner implements Runnable {
 			OneRestartLogger oneRestartLogger = logger.curMultiRestarts.getLogger(bestRestartId);
 			return oneRestartLogger;
 	}
+<<<<<<< HEAD
 
 
+=======
+	
+>>>>>>> ff5fc4c3c2788b98425d66aeafc38a2bb35fbb78
 
 	/** Actual function to do one restart train and test per KC */
 	public OneRestartLogger runOneHMMOneRestart(int fileId, int restartId, int hmmId, String hmmName, 
@@ -588,7 +592,11 @@ public class Runner implements Runnable {
 		getOneHMMParameters(hmm, FeatureHMM.getKnownState(hmm, curKcStuList.get(0).get(0), opts.judgeHiddenByEmit, opts.allowForget), 
 												logger.curRestart.trainSummary.parameters);
 		return hmm;
+<<<<<<< HEAD
 	}   
+=======
+	}
+>>>>>>> ff5fc4c3c2788b98425d66aeafc38a2bb35fbb78
 	
 
 	public ArrayList<ArrayList<String>> splitHMMs(String filename, Bijection kcs) throws IOException {

@@ -26,6 +26,7 @@ import java.util.List;
 import fast.data.DataPoint;
 //import fast.experiment.Opts;
 
+//import be.ac.ulg.montefiore.run.jahmm.ForwardBackwardCalculator;
 
 /**
  * An implementation of the Baum-Welch learning algorithm. It uses a scaling

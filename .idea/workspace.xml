@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbc234ab-72dc-44c6-afff-6d228a1924fa" name="Default Changelist" comment="" />
+    <list default="true" id="cbc234ab-72dc-44c6-afff-6d228a1924fa" name="Default Changelist" comment="`Merge branch 'master' of https://github.com/khushsi/fast&#10;&#10;# Conflicts:&#10;#&#9;.classpath&#10;#&#9;.gitignore&#10;#&#9;.project&#10;#&#9;LICENSE&#10;#&#9;README.md&#10;#&#9;data/IRT_exp/FAST+IRT1.conf&#10;#&#9;data/IRT_exp/FAST+IRT2.conf&#10;#&#9;data/IRT_exp/KT1.conf&#10;#&#9;data/IRT_exp/KT2.conf&#10;#&#9;data/IRT_exp/README_dataset.txt&#10;#&#9;data/IRT_exp/test0.csv&#10;#&#9;data/IRT_exp/train0.csv&#10;#&#9;data/item_exp/FAST+item1.conf&#10;#&#9;data/item_exp/FAST+item2.conf&#10;#&#9;data/item_exp/FAST+item3.conf&#10;#&#9;data/item_exp/KT1.conf&#10;#&#9;data/item_exp/KT2.conf&#10;#&#9;data/item_exp/README_dataset.txt&#10;#&#9;data/item_exp/test0.csv&#10;#&#9;data/item_exp/train0.csv&#10;#&#9;data/others/FAST+IRT.conf&#10;#&#9;data/others/FAST+IRT_test0.txt&#10;#&#9;data/others/FAST+IRT_train0.txt&#10;#&#9;data/others/FAST+item.conf&#10;#&#9;data/others/FAST+item_SplitBySeq.conf&#10;#&#9;data/others/FAST+item_SplitBySeq_test0.txt&#10;#&#9;data/others/FAST+item_SplitBySeq_train0.txt&#10;#&#9;data/others/FAST+item_test0.txt&#10;#&#9;data/others/FAST+item_train0.txt&#10;#&#9;data/others/FAST+subskill.conf&#10;#&#9;data/others/FAST+subskill_test0.txt&#10;#&#9;data/others/FAST+subskill_train0.txt&#10;#&#9;data/others/KT.conf&#10;#&#9;data/others/KT_test0.txt&#10;#&#9;data/others/KT_train0.txt&#10;#&#9;pom.xml&#10;#&#9;src/log4j.properties&#10;#&#9;src/main/assembly/jar.xml&#10;#&#9;src/main/assembly/zip.xml&#10;#&#9;src/main/java/fast/common/Bijection.java&#10;#&#9;src/main/java/fast/common/Functions.java&#10;#&#9;src/main/java/fast/common/Matrix.java&#10;#&#9;src/main/java/fast/common/Stats.java&#10;#&#9;src/main/java/fast/common/Utility.java&#10;#&#9;src/main/java/fast/data/CVStudent.java&#10;#&#9;src/main/java/fast/data/DataPoint.java&#10;#&#9;src/main/java/fast/data/DataPointList.java&#10;#&#9;src/main/java/fast/data/StudentList.java&#10;#&#9;src/main/java/fast/evaluation/AUC.java&#10;#&#9;src/main/java/fast/evaluation/Degeneracy.java&#10;#&#9;src/main/java/fast/evaluation/Mastery.java&#10;#&#9;src/main/java/fast/evaluation/Metrics.java&#10;#&#9;src/main/java/fast/evaluation/PredictivePerformance.java&#10;#&#9;src/main/java/fast/evaluation/Sample.java&#10;#&#9;src/main/java/fast/evaluation/TestSummary.java&#10;#&#9;src/main/java/fast/evaluation/TrainSummary.java&#10;#&#9;src/main/java/fast/experimenter/Logger.java&#10;#&#9;src/main/java/fast/experimenter/Options.java&#10;#&#9;src/main/java/fast/experimenter/Runner.java&#10;#&#9;src/main/java/fast/featurehmm/BaumWelchLearner.java&#10;#&#9;src/main/java/fast/featurehmm/BaumWelchScaledLearner.java&#10;#&#9;src/main/java/fast/featurehmm/FeatureHMM.java&#10;#&#9;src/main/java/fast/featurehmm/ForwardBackwardCalculator.java&#10;#&#9;src/main/java/fast/featurehmm/ForwardBackwardScaledCalculator.java&#10;#&#9;src/main/java/fast/featurehmm/LBFGS.java&#10;#&#9;src/main/java/fast/featurehmm/Learner.java&#10;#&#9;src/main/java/fast/featurehmm/LogisticRegression.java&#10;#&#9;src/main/java/fast/featurehmm/PdfFeatureAware.java&#10;#&#9;src/main/java/fast/featurehmm/PdfFeatureAwareLogisticRegression.java&#10;#&#9;src/main/java/fast/featurehmm/Predictor.java&#10;#&#9;src/main/java/fig/basic/AbstractT2Map.java&#10;#&#9;src/main/java/fig/basic/AbstractTMap.java&#10;#&#9;src/main/java/fig/basic/BigStatFig.java&#10;#&#9;src/main/java/fig/basic/CharEncUtils.java&#10;#&#9;src/main/java/fig/basic/ClassInitializer.java&#10;#&#9;src/main/java/fig/basic/DeepCloneable.java&#10;#&#9;src/main/java/fig/basic/Exceptions.java&#10;#&#9;src/main/java/fig/basic/Fmt.java&#10;#&#9;src/main/java/fig/basic/FullStatFig.java&#10;#&#9;src/main/java/fig/basic/IOUtils.java&#10;#&#9;src/main/java/fig/basic/IdentityHashSet.java&#10;#&#9;src/main/java/fig/basic/Interner.java&#10;#&#9;src/main/java/fig/basic/ListUtils.java&#10;#&#9;src/main/java/fig/basic/LogInfo.java&#10;#&#9;src/main/java/fig/basic/MapFactory.java&#10;#&#9;src/main/java/fig/basic/MapUtils.java&#10;#&#9;src/main/java/fig/basic/NumUtils.java&#10;#&#9;src/main/java/fig/basic/Option.java&#10;#&#9;src/main/java/fig/basic/OptionSet.java&#10;#&#9;src/main/java/fig/basic/OptionsParser.java&#10;#&#9;src/main/java/fig/basic/OrderedMap.java&#10;#&#9;src/main/java/fig/basic/OrderedStringMap.java&#10;#&#9;src/main/java/fig/basic/Pair.java&#10;#&#9;src/main/java/fig/basic/PriorityQueue.java&#10;#&#9;src/main/java/fig/basic/StatFig.java&#10;#&#9;src/main/java/fig/basic/StopWatch.java&#10;#&#9;src/main/java/fig/basic/StopWatchSet.java&#10;#&#9;src/main/java/fig/basic/StrUtils.java&#10;#&#9;src/main/java/fig/basic/StringDoubleMap.java&#10;#&#9;src/main/java/fig/basic/SysInfoUtils.java&#10;#&#9;src/main/java/fig/basic/T2DoubleMap.java&#10;#&#9;src/main/java/fig/basic/T2VMap.java&#10;#&#9;src/main/java/fig/basic/TDoubleMap.java&#10;#&#9;src/main/java/fig/basic/TVMap.java&#10;#&#9;src/main/java/fig/basic/Utils.java&#10;#&#9;src/main/java/fig/exec/Execution.java&#10;#&#9;src/main/java/fig/exec/MonitorThread.java&#10;#&#9;src/main/java/fig/record/Record.java&#10;#&#9;src/main/java/fig/record/Recordable.java&#10;#&#9;src/main/python/split_dataset.py&#10;`">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__be_ac_ulg_montefiore_run_jahmm_jahmm_0_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/IRT_exp/train0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/IRT_exp/train0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fast.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fast.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/common/Bijection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/common/Bijection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/common/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/common/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/data/DataPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/data/DataPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/featurehmm/BaumWelchLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/featurehmm/BaumWelchLearner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/featurehmm/BaumWelchScaledLearner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/featurehmm/BaumWelchScaledLearner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/featurehmm/FeatureHMM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/featurehmm/FeatureHMM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/featurehmm/ForwardBackwardScaledCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/featurehmm/ForwardBackwardScaledCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fast/featurehmm/PdfFeatureAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fast/featurehmm/PdfFeatureAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fig/exec/Execution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fig/exec/Execution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +46,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WfN0r2zsihPrvwHwTDsTIy2pCW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579536399270" />
@@ -129,7 +155,8 @@
       <workItem from="1580507102830" duration="2551000" />
       <workItem from="1580683837893" duration="1213000" />
       <workItem from="1580851028069" duration="2301000" />
-      <workItem from="1581437469017" duration="66000" />
+      <workItem from="1581437469017" duration="337000" />
+      <workItem from="1581437925419" duration="980000" />
     </task>
     <servers />
   </component>
@@ -146,10 +173,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="648" y="275" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1680.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1579536762524" />
-    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1580852758671">
+    <state x="514" y="0" key="CommitChangelistDialog2" timestamp="1581438078792">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1580852758671" />
+    <state x="514" y="0" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1581438078792" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1581438318388">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1581438318388" />
     <state width="1878" height="365" key="GridCell.Tab.0.bottom" timestamp="1580855390551">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -206,6 +237,10 @@
     <state width="1878" height="365" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1580855390554" />
     <state width="1878" height="365" key="GridCell.Tab.1.right/0.0.1920.1080/1920.101.1680.1050@0.0.1920.1080" timestamp="1579707935404" />
     <state width="1878" height="210" key="GridCell.Tab.1.right/0.0.1920.1080/1920.124.1680.1027@0.0.1920.1080" timestamp="1579615535262" />
+    <state x="0" y="0" width="1920" height="1080" key="VcsDiffUtil.ChangesDialog" timestamp="1581438845122">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="0" width="1920" height="1080" key="VcsDiffUtil.ChangesDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1581438845122" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1580852758672">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -255,12 +290,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fig/exec/Execution.java</url>
-          <line>413</line>
+          <line>412</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fig/exec/Execution.java</url>
-          <line>412</line>
+          <line>411</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -285,7 +320,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>580</line>
+          <line>584</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -325,7 +360,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>248</line>
+          <line>252</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -345,27 +380,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>773</line>
+          <line>781</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>855</line>
+          <line>863</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>958</line>
+          <line>966</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>252</line>
+          <line>256</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>713</line>
+          <line>721</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -385,12 +420,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>394</line>
+          <line>398</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fast/experimenter/Runner.java</url>
-          <line>1073</line>
+          <line>1081</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

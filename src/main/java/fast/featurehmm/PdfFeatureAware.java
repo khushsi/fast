@@ -20,7 +20,7 @@ package fast.featurehmm;
 
 import java.io.Serializable;
 //import java.text.NumberFormat;
-import fast.common.Observation;
+import be.ac.ulg.montefiore.run.jahmm.Observation;
 
 /**
  * Objects implementing this interface represent a probability (distribution)

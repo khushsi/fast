@@ -51,7 +51,7 @@ public class BaumWelchLearner {
 	private double ll; //  //current iteration's all data ll; belongs to an object (not class)
 	private double previousLL;
 	private boolean convergeByAbs = false;
-	private boolean verbose = true;
+	private boolean verbose = false;
 
 	private int nbParameterizingFailed = 0;//only 1/0
 	private int nbStopByEMIteration = 0; //only 1/0

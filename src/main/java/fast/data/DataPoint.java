@@ -12,7 +12,7 @@
 package fast.data;
 
 import java.text.NumberFormat;
-import fast.common.Observation;
+import be.ac.ulg.montefiore.run.jahmm.Observation;
 
 public class DataPoint extends Observation {
 
@@ -26,7 +26,11 @@ public class DataPoint extends Observation {
 	 * 
 	 * expandedFeatures[0] will be null without initialization.
 	 */
+<<<<<<< HEAD
 	private double[][][]  expandedFeatures = null;
+=======
+	private double[][][] expandedFeatures = null;
+>>>>>>> ff5fc4c3c2788b98425d66aeafc38a2bb35fbb78
 	// private double[] features = null;
 	// private boolean oneLogisticRegression = false;
 	private int fold = -1;

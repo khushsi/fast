@@ -347,7 +347,6 @@ public class Execution {
 			parser.doGetOptionPairs().print(stdout);
 			System.exit(0);
 		}
-		parser.doGetOptionPairs().print(stdout);
 
 		// Create a new directory
 		if (create) {

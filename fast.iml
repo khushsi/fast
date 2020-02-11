@@ -11,5 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: edu.berkeley.nlp:berkeleyparser:r32" level="project" />
+    <orderEntry type="library" name="Maven: be.ac.ulg.montefiore.run.jahmm:jahmm:0.6.2" level="project" />
   </component>
 </module>
