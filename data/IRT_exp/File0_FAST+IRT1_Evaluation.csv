@@ -1,0 +1,5 @@
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,

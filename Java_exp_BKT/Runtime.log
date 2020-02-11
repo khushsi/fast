@@ -1,0 +1,1370 @@
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+MeanAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 14 16:21:37 EST 2020
+Start:	Tue Jan 14 16:21:33 EST 2020
+Duration(sec):	3
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+MeanAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 14 18:22:45 EST 2020
+Start:	Tue Jan 14 18:22:41 EST 2020
+Duration(sec):	3
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+MeanAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 14 18:23:01 EST 2020
+Start:	Tue Jan 14 18:22:57 EST 2020
+Duration(sec):	3
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+MeanAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 14 18:23:41 EST 2020
+Start:	Tue Jan 14 18:23:37 EST 2020
+Duration(sec):	4
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+MeanAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.706,-7.301,-0.261,0.714,0.454,0,0.833,0,0.714,0,1,0,20,0,8,1.396,0,-58.143,0,17,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 14 18:55:40 EST 2020
+Start:	Tue Jan 14 18:54:18 EST 2020
+Duration(sec):	82
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=1
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=146
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Wed Jan 15 19:31:55 EST 2020
+Start:	Wed Jan 15 16:28:26 EST 2020
+Duration(sec):	11008
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Thu Jan 16 18:00:37 EST 2020
+Start:	Wed Jan 15 19:32:17 EST 2020
+Duration(sec):	80899
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Fri Jan 17 10:20:10 EST 2020
+Start:	Fri Jan 17 09:52:26 EST 2020
+Duration(sec):	1664
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Fri Jan 17 11:09:10 EST 2020
+Start:	Fri Jan 17 10:31:43 EST 2020
+Duration(sec):	2247
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Sat Jan 18 21:35:32 EST 2020
+Start:	Fri Jan 17 11:12:13 EST 2020
+Duration(sec):	123799
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Mon Jan 20 11:58:07 EST 2020
+Start:	Mon Jan 20 11:47:46 EST 2020
+Duration(sec):	620
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Mon Jan 20 12:06:05 EST 2020
+Start:	Mon Jan 20 11:58:20 EST 2020
+Duration(sec):	464
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 21 17:59:54 EST 2020
+Start:	Tue Jan 21 14:48:08 EST 2020
+Duration(sec):	11505
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 21 20:35:51 EST 2020
+Start:	Tue Jan 21 18:00:00 EST 2020
+Duration(sec):	9351
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Tue Jan 21 21:31:36 EST 2020
+Start:	Tue Jan 21 20:35:55 EST 2020
+Duration(sec):	3341
+
+***** Configuration *****
+modelName=FAST+IRT1
+train=./data/IRT_exp/train0.csv
+test=./data/IRT_exp/test0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=1
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+***** Testing: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+#attempts(records)=75
+#students(sequences)=28
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=67
+
+
+***** Evaluating: fileId=0(1/1), kc=Nested_Loops(1/1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Evaluating: fileId=0(1/1), all KCs(1) *****
+Name,NbObs(test),AUC,LogLikelihood_base10,MeanLLPerObs,Accuracy,RMSE,MajFmeasure,MinFmeasure,MajPrecision,MinPrecision,MajRecall,MinRecall,TP,TN,FP,FN,G+S_featureOff(plausibility),G+S<1_featureOff(plausibility),LL(train),NbStopByEMIteration(train),NbLLError(train),MaxLLDecreaseRatio_diffByavg(train),NbParameterizingFailed(train),
+Nested_Loops,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+MeanAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+SDAcrossKCs,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,
+OverallAcrossKCs,28,0.688,-7.196,-0.257,0.714,0.45,0,0.833,0,0.714,0,1,0,20,0,8,1.243,0,-57.387,0,31,0,0,
+
+
+
+***** Summary for running time *****
+End:	Wed Jan 22 09:33:03 EST 2020
+Start:	Wed Jan 22 09:33:01 EST 2020
+Duration(sec):	1
+
+***** Configuration *****
+modelName=FAST
+train=./Java_exp_BKT/train0.csv
+test=./Java_exp_BKT/train0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=false
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=2
+
+
+***** Configuration *****
+modelName=FAST
+train=./Java_exp_BKT/train0.csv
+test=./Java_exp_BKT/train0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=2
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/2) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=4
+
+***** Configuration *****
+modelName=FAST
+train=./Java_exp_BKT/train0.csv
+test=./Java_exp_BKT/train0.csv
+nbFiles=1	nbRandomRestarts=1
+allowForget=false
+parameterizing=true	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=true	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=true
+
+
+
+***** Starting new file: fileId=0(1/1) *****
+#HMMs(train)=2
+#HMMs(test)=2
+
+
+
+***** Training: fileId=0(1/1), kc=Nested_Loops(1/2) *****
+#attempts(records)=143
+#students(seqs)=62
+#items(questions)=3
+#finalInitFeatures=0, #finalTranFeatures=0, #finalEmitFeatures=4

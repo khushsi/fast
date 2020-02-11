@@ -1,0 +1,26 @@
+
+***** Configuration *****
+modelName=KT
+train=./data/temp/KT_train0.txt
+test=./data/temp/KT_test0.txt
+nbFiles=3	nbRandomRestarts=3
+allowForget=false
+parameterizing=false	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=false	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=false
+
+***** Configuration *****
+modelName=KT
+train=./data/temp/KT_train0.txt
+test=./data/temp/KT_test0.txt
+nbFiles=3	nbRandomRestarts=3
+allowForget=false
+parameterizing=false	parameterizingInit=false	parameterizingTran=false	parameterizingEmit=false	forceUsingInputFeature=true
+initialK0=-1.0	initialT=-1.0	initialG-1.0	initialS-1.0	initialFeatureWeightsBounds=-10.0,10.0
+EMTolerance=1.0E-6	EMMaxIters=500	useBaumWelchScaledLearner=true	ACCEPTABLE_LL_DECREASE=0.001
+LBFGSTolerance=1.0E-6	LBFGSMaxIters=50
+useReg=true	LBFGSRegWeight=1.0	LBFGSRegBias=0.0
+bias=false
