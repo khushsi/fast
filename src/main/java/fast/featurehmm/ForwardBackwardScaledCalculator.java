@@ -24,7 +24,7 @@ import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.List;
-import be.ac.ulg.montefiore.run.jahmm.Observation;
+import fast.common.Observation;
 import fast.common.Matrix;
 import fast.data.DataPoint;
 //import be.ac.ulg.montefiore.run.jahmm.ForwardBackwardCalculator;

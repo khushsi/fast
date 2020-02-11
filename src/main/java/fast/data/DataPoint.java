@@ -12,7 +12,7 @@
 package fast.data;
 
 import java.text.NumberFormat;
-import be.ac.ulg.montefiore.run.jahmm.Observation;
+import fast.common.Observation;
 
 public class DataPoint extends Observation {
 
